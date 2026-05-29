@@ -5,8 +5,8 @@ export default function BirthdayQuoteCard() {
                 relative
                 w-[360]
                 rounded-[26px]
-                px-10
-                py-8
+                lg:px-10
+                lg:py-8
                 overflow-hidden
 
                 border border-white/10
@@ -19,13 +19,14 @@ export default function BirthdayQuoteCard() {
             {/* Quote left */}
             <span
                 className="
-          absolute
-          left-5
-          top-3
-          text-[48px]
-          text-pink-200/40
-          font-serif
-        "
+                    absolute
+                    left-5
+                    top-0
+                    sm:top-3
+                    text-[48px]
+                    text-pink-200/40
+                    font-serif
+                    "
             >
                 “
             </span>
@@ -35,7 +36,8 @@ export default function BirthdayQuoteCard() {
                 className="
           absolute
           right-6
-          bottom-2
+          sm:bottom-2
+          bottom-[-30]
           text-[48px]
           text-pink-200/40
           font-serif

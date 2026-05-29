@@ -37,18 +37,18 @@ import TextNeon from "@/components/text/textNeon";
 
 const TrangChu = () => {
     return (
-        <main className="relative min-h-[100dvh] w-full overflow-y-auto bg-[url('/mobile.png')] bg-cover bg-center lg:bg-[url('/bg.2.png')]">
+        <main className="relative min-h-[100dvh] w-full overflow-hidden bg-[url('/mobile.png')] bg-cover bg-center lg:bg-[url('/bg.2.png')]">
             <HeartRandom />
 
             <div className="absolute z-20 left-1/2 top-6 w-[86%] max-w-[360px] -translate-x-1/2 lg:left-[2%] lg:top-[2%] lg:w-auto lg:max-w-none lg:translate-x-0">
                 <BirthdayQuoteCard />
             </div>
 
-            <div className="absolute z-[9] left-1/2 bottom-[-45px] h-[170px] w-[105%] max-w-[440px] -translate-x-1/2 bg-[url('/content.png')] bg-cover bg-center lg:left-[48%] lg:bottom-3 lg:h-[273px] lg:w-[500px] lg:translate-x-0" />
+            <div className="absolute hidden z-[9] left-1/2 bottom-[-45px] h-[170px] w-[105%] max-w-[440px] -translate-x-1/2 bg-[url('/content.png')] bg-cover bg-center lg:left-[48%] lg:bottom-3 lg:h-[273px] lg:w-[500px] lg:translate-x-0" />
 
             <UsePopup />
 
-            <div className="absolute z-10 top-[30%] left-1/2 w-full -translate-x-1/2 px-4 lg:top-[5%] lg:left-[35%] lg:w-auto lg:translate-x-0 lg:px-0">
+            <div className="absolute z-10 top-[20%] left-1/2 w-full -translate-x-1/2 px-4 lg:top-[5%] lg:left-[35%] lg:w-auto lg:translate-x-0 lg:px-0">
                 <TextNeon />
             </div>
 
