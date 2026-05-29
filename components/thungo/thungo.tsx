@@ -98,12 +98,12 @@ export default function MoThu() {
 
                     {/* content */}
                     <div className="relative flex h-full flex-col items-center text-center">
-                        <p className="font-serif text-lg italic text-rose-900/70">
+                        {/* <p className="font-serif text-lg italic text-rose-900/70">
                             Một lá thư
-                        </p>
+                        </p> */}
 
-                        <h1 className="mt-2 text-3xl tracking-wide text-rose-900 drop-shadow-sm md:text-4xl font-[cursive]">
-                            gửi riêng cho chị
+                        <h1 className="pt-[5%] text-3xl tracking-wide text-rose-900 drop-shadow-sm md:text-4xl font-[cursive]">
+                            có một lá thử ở đây
                         </h1>
 
                         <div
