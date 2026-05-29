@@ -6,7 +6,7 @@ import ChucMungSN from "@/components/chucmung"
 
 const Hello = () =>{
     return (
-        <div className="w-screen h-screen bg-cover bg-center lg:bg-cover lg:bg-center bg-[url('/BG2Mobi.png')] lg:bg-[url('/bg.gif')]">
+        <div className="w-screen h-screen bg-cover bg-center lg:bg-cover lg:bg-center bg-[url('/mobile.png')] lg:bg-[url('/bg.gif')]">
             <div className="">
                 <HeartRandom />
             </div>

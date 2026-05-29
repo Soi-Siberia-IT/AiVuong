@@ -37,7 +37,7 @@ import TextNeon from "@/components/text/textNeon";
 
 const TrangChu = () => {
     return (
-        <main className="relative min-h-[100dvh] w-full overflow-hidden bg-[url('/BgMobi.png')] bg-cover bg-center lg:bg-[url('/bg.2.png')]">
+        <main className="relative min-h-[100dvh] w-full overflow-hidden bg-[url('/mobile.png')] bg-cover bg-center lg:bg-[url('/bg.2.png')]">
             <HeartRandom />
 
             <div className="absolute z-20 left-1/2 top-6 w-[86%] max-w-[360px] -translate-x-1/2 lg:left-[2%] lg:top-[2%] lg:w-auto lg:max-w-none lg:translate-x-0">
