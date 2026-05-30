@@ -29,7 +29,7 @@ const Hello = () =>{
             {/* desktop */}
             <div className=" hidden lg:grid lg:grid-cols-3 lg:gap-4 ">
 
-                <div className="w-[346] h-[607] ml-[206] mt-[57]">
+                <div className="w-[346] h-[607] ml-[35%] mt-[57]">
                     <ChucMungSN />
                 </div>
 

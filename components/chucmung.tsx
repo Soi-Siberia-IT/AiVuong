@@ -28,7 +28,7 @@ const ChucMungSN = () => {
                     " />
 
                 {/* content */}
-                <div className="relative flex h-full flex-col items-center justify-center px-8 text-center mt-2">
+                <div className="relative flex h-full flex-col items-center justify-center sm:px-8 px-7 text-center mt-2">
 
                     <p className="lg:block hidden mt-6 text-pink-200 tracking-[6px] uppercase text-sm">
                         Happy Birthday
