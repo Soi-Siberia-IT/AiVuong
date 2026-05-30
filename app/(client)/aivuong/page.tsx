@@ -3,21 +3,26 @@ import ChucMung from "@/components/TileChucMung"
 import HeartRandom from "@/components/heartRandom"
 import RomanticSlider from "@/components/slide"
 import ChucMungSN from "@/components/chucmung"
+import ViewPhotoButton from "@/components/bottom/viewPhotoButton"
 
 const Hello = () =>{
     return (
-        <div className="w-screen h-screen bg-cover bg-center lg:bg-cover lg:bg-center bg-[url('/mobile.png')] lg:bg-[url('/bg.gif')]">
+        <div className="w-screen h-screen bg-cover bg-center lg:bg-cover lg:bg-center bg-[url('/BG2Mobi.png')] lg:bg-[url('/bg.gif')]">
             <div className="">
                 <HeartRandom />
             </div>
             <div className="block lg:hidden">
                 <ChucMung />
-                <div className="h-[392] border-2 border-pink-300/40">
+                <div className="h-auto">
                     <ChucMungSN />
                 </div>
 
                 <div>
                     <BanhKemV2 />
+                </div>
+
+                <div className="mt-[15px] flex justify-center">
+                    <ViewPhotoButton />
                 </div>
             </div>
             

@@ -151,7 +151,8 @@ export default function RomanticSlider() {
                 className="
                     relative
                     w-full
-                    max-w-[350px]
+                    sm:max-w-[350px]
+                    w-[100vh]
                     overflow-hidden
                     rounded-[34px]
                     border border-white/20
@@ -175,7 +176,7 @@ export default function RomanticSlider() {
 
                 {/* INNER */}
                 <div className="relative overflow-hidden rounded-[32px] bg-transparent">
-                    <div className="relative h-[620px] overflow-hidden">
+                    <div className="relative sm:h-[620px] h-[85vh] overflow-hidden">
 
                         {/* BG SHOW THROUGH */}
                         <div className="absolute inset-0 bg-white/5 backdrop-blur-sm" />

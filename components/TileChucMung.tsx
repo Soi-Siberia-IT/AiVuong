@@ -8,7 +8,8 @@ const ChucMung = () => {
           <h1
               className="
                 relative z-10
-                text-[58px]
+                sm:text-[58px]
+                text-[40px]
                 leading-[1.05]
                 font-black
                 italic
@@ -19,7 +20,7 @@ const ChucMung = () => {
                   fontFamily: "'Pacifico', cursive",
               }}
           >
-              Chúc mừng <br />
+              Chúc mừng
               Sinh nhật!
           </h1>
 

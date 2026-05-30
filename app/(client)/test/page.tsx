@@ -1,9 +1,10 @@
 import Slider from "@/components/slide"
 
-
 const MoThu = () => {
   return (
-    <Slider />
+    <div>
+      <Slider />
+    </div>
     )
 }
 
