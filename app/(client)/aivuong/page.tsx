@@ -13,7 +13,7 @@ const Hello = () =>{
             </div>
             <div className="block lg:hidden">
                 <ChucMung />
-                <div className="h-auto">
+                <div className="h-auto px-2">
                     <ChucMungSN />
                 </div>
 
